@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		body {
+			text-align: center;
+		}
+		/* Filter
+			blur(px)
+			brightness(angka | %)
+			contrast(angka | %)
+			saturate(angka | %)
+			grayscale(angka | %)
+			sepia(angka | %)
+			hue-rotate(deg)
+			invert(angka | %)
+			opacity(angka | %)
+			drop-shadow(sama seperti box shadow)
+		*/
+		h1 {
+			filter: drop-shadow(5px 5px 5px black);
+		}
+		img {
+			filter: blur(3px) grayscale(1);
+			transition: 1s;
+		}
+		img:hover {
+			filter: blur(0) grayscale(0);
+		}
+	</style>
+</head>
+<body>
+	
+	<h1>Universitar BSI</h1>
+	<img src="logo.png" alt="Universitas BSI">
+
+</body>
+</html>
